@@ -73,27 +73,27 @@
               class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
             >
               <li
-                class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+                class="bg-base-100 text-xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
               >
                 <a>Home</a>
               </li>
               <li
-                class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+                class="bg-base-100 text-xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
               >
                 <a>About</a>
               </li>
               <li
-                class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+                class="bg-base-100 text-xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
               >
                 <a>Pages</a>
               </li>
               <li
-                class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+                class="bg-base-100 text-xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
               >
                 <a>Blog</a>
               </li>
               <li
-                class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+                class="bg-base-100 text-xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
               >
                 <a>Contact</a>
               </li>
@@ -106,27 +106,27 @@
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li
-              class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+              class="bg-base-100 text-2xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
             >
               <a>Home</a>
             </li>
             <li
-              class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+              class="bg-base-100 text-2xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
             >
               <a>About</a>
             </li>
             <li
-              class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+              class="bg-base-100 text-2xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
             >
               <a>Pages</a>
             </li>
             <li
-              class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+              class="bg-base-100 text-2xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
             >
               <a>Blog</a>
             </li>
             <li
-              class="bg-base-100 text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
+              class="bg-base-100 text-2xl text-gray-900 hover:bg-primaryColor hover:text-white rounded-lg"
             >
               <a>Contact</a>
             </li>
@@ -137,9 +137,9 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto my-10">
       <!-- Carousel section -->
-      <section class="flex justify-center">
+      <section class="flex justify-center border-b-2 border-dashed border-gray-300">
         <div class="carousel lg:max-w-[1170px] lg:max-h-[600px]">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="flex flex-col gap-2 lg:relative">
@@ -210,7 +210,50 @@
       </section>
 
       <!-- Club details section -->
-      <section></section>
+      <section class="flex flex-col mt-8 border-b-2 border-dashed border-gray-300">
+        <div class="details flex flex-col justify-center gap-5 p-5 border-b-2 border-dashed border-gray-300">
+          <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-950 text-center">Professional Hockeys Club</h2>
+          <p class="text-xl font-light text-gray-900 text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
+          <!-- Player Facility -->
+          <div class="facility flex flex-col justify-center p-8 gap-5 grid-cols-1">
+            <div class="radial-progress mx-auto text-2xl font-extrabold  text-red-600" style="--value:87; --size:10rem; --thickness: 1.1rem" role="progressbar">87%
+            </div>
+            <div class="flex flex-col justify-center">
+              <h3 class="text-2xl font-semibold text-center text-gray-900">Prayer Facility</h3>
+              <p class="text-lg font-light text-center text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+          <!-- Experienced Coach -->
+          <div class="facility flex flex-col justify-center p-8 gap-5 grid-cols-1">
+            <div class="radial-progress mx-auto text-2xl font-extrabold  text-green-400" style="--value:95; --size:10rem; --thickness: 1.1rem" role="progressbar">95%
+            </div>
+            <div class="flex flex-col justify-center">
+              <h3 class="text-2xl font-semibold text-center text-gray-900">Experienced Coach</h3>
+              <p class="text-lg font-light text-center text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+          <!-- Senior Player -->
+          <div class="facility flex flex-col justify-center p-8 gap-5 grid-cols-1">
+            <div class="radial-progress mx-auto text-2xl font-extrabold  text-[#FFB546]" style="--value:90; --size:10rem; --thickness: 1.1rem" role="progressbar">90%
+            </div>
+            <div class="flex flex-col justify-center">
+              <h3 class="text-2xl font-semibold text-center text-gray-900">Senior Player</h3>
+              <p class="text-lg font-light text-center text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+          <!-- Training Ground -->
+          <div class="facility flex flex-col justify-center p-8 gap-5 grid-cols-1">
+            <div class="radial-progress mx-auto text-2xl font-extrabold  text-[#4C8DF1]" style="--value:80; --size:10rem; --thickness: 1.1rem" role="progressbar">80%
+            </div>
+            <div class="flex flex-col justify-center">
+              <h3 class="text-2xl font-semibold text-center text-gray-900">Training Ground</h3>
+              <p class="text-lg font-light text-center text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
